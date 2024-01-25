@@ -1,6 +1,3 @@
-
-
-# ----- FUNCTIONS -----
 def is_even(given):
     for i in range(len(given)):
         if given[i] % 2 == 0:
@@ -8,13 +5,5 @@ def is_even(given):
         else:
             print("invalid")
 
-
-
-# ----- PSEUDO CODE -----
-# - Actual Code
 given = (10,20,33,46,55)
 is_even(given)
-
-
-
-# - Result
